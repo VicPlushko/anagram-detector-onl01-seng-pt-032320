@@ -8,7 +8,7 @@ class Anagram
    end
    
    def match(word)
-     if @word.select do |words|
+     if @word.map do |words|
        words != word
        return []
     end
