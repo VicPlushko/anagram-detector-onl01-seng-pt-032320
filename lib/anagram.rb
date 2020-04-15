@@ -8,8 +8,7 @@ class Anagram
    end
    
    def match(word)
-     if @word.find do |words|
-       words != word
+     if @word
        return []
     end
    end
